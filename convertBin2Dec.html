@@ -7,18 +7,22 @@
     </head>
     <body>
         
+        <!-- Título da página -->
         <h1>Conversor de números binários em decimais</h1>
 
-        <form name="A_bin2dec">
+        <form>
 
+            <!-- input que recebe e envia os dados para a função -->
             <label>Binário:</label><br>
-            <input type="text" maxlength="8" size="20"><br><br>
+            <input id="fb1" name="fbin" type="text" maxlength="8" size="20"><br><br>
             
-            <input id="convert" class="bt" type="submit" value="Converter" onclick="bin2Dec()"><br><br>
+            <!-- button onde eu chamo a função com o evento onclick -->
+            <!-- o parâmetro return false foi utilizado para manter os dados decimais no input -->
+            <button id="botao" onclick="document.getElementById('fb2').value = bin2Dec(document.getElementById('fb1').value); return false;">Converter</button><br><br>
 
+            <!-- input que recebe o valor decimal convertido -->
             <label>Decimal:</label><br>
-            <input type="text" id="convert">
-            
+            <input id="fb2" name="fdec" type="text">            
 
         </form>
 

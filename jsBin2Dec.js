@@ -1,16 +1,18 @@
-function bin2Dec(bin1){
-    var bin = bin1.toString()
-    var paraSomar = new Array()
-    for(let i = 0; i < 8; i++){
-        var num = parseInt(bin.substring(i+1, i))
-        var matBin2Dec = num*(2**i)
-        paraSomar.push(matBin2Dec)
-    }
-    // var soNum = (n) => n != NaN
-    const resultado = paraSomar.reduce(function(acumulador, atual){
-        return acumulador + atual
-    }, 0)
-    return console.log(resultado)
-}
+function bin2Dec(bin){
+    // função parseInt para converter binario em decimal
+    let decimal = parseInt(bin, 2);
 
-bin2Dec(110111)
+    // segundo método para converter binario em decimal
+
+    // convertendo os dados recebidos em string
+    //  let bin1 = bin.toString()
+    // variavel que recebe o valor decimal
+    //  let decimal = 0
+    // laço utilizado para ler e converter todos os caracteres binários
+    //  for(let i = bin1.length - 1, e = 0; i >= 0; i--, e++){
+    //      decimal += bin1[i] * Math.pow(2, e)
+    //  }
+
+    // retorno da função
+    return decimal;
+}
