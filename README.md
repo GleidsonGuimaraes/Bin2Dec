@@ -20,6 +20,7 @@ O Bin2Dec é uma ideia retirada do repositório app-ideias e permite que o usuá
 * O usuário pode inserir um número variável de dígitos binários.
 ***
 
-### Sobre
+### Links úteis
 
-Esse app foi desenvolvido em Html, Css e Javascript com base em conhecimento adquirido no curso do CFB-cursos, na documentação oficial das linguagens e alguns tópicos do fórum stackoverflow.
+* https://www.youtube.com/watch?v=8dPpZsC6Vg8&list=PLx4x_zx8csUgS5ioRmQVBeGHmKBQEyNXQ
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
